@@ -1,0 +1,44 @@
+
+  .ql-editor:focus {
+    border: 1px solid #80bdff !important;
+    box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25) !important;
+  }
+  
+  .ng-invalid {
+    border: 1px dashed red;
+  }
+  
+  .ql-size-huge {
+    font-size: 2.5em;
+ }
+
+ .ql-size-large {
+  font-size: 1.5em;
+}
+
+@font-face {
+    font-family: Bamini;
+    src: url(assets/fonts/Bamini.ttf) format('truetype');
+}
+
+#toolbar-container .ql-font span[data-label="Bamini"]::before {
+    font-family: "Bamini" !important ;
+  }
+  
+  .ql-font-Bamini {
+    font-family: 'Bamini';
+  }
+
+@font-face {
+    font-family: FMSamantha;
+    src: url(assets/fonts/FMSamantha.ttf) format('truetype');
+}
+
+#toolbar-container .ql-font span[data-label="FMSamantha"]::before {
+    font-family: "FMSamantha" !important ;
+  }
+  
+  .ql-font-FMSamantha {
+    font-family: 'FMSamantha';
+  }
+
